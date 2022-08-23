@@ -1135,27 +1135,32 @@ header:after {
 
 
 
-#fetures-section{
+/* #fetures-section{
     background: #f2f3f3;
-}
+} */
 
 #fetures-section .fetures-place{
     text-align: center;
     background: #fff;
     margin: -10px 0;
-    padding: 30px 20px;
-    -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.04);
-    -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.04);
-    box-shadow: 0px 0px 43px -1px rgba(0, 0, 0, 0.04);
-    position: relative;
-    padding-bottom: 0;
-	-webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 0px 43px -1px rgba(0,0,0,0.08);
+    box-shadow: 0px 0px 43px -1px rgba(0, 0, 0, 0.08);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 	width:100%;
 }
 
-#fetures-section .fetures-place i:before{
+#fetures-section .fetures-place img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+/* #fetures-section .fetures-place img:before{
     font-size: 70px;
     margin-left: 0;
     color: #264b65;
@@ -1166,17 +1171,17 @@ header:after {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-}
-#fetures-section .fetures-place:hover i:before{
+} */
+/* #fetures-section .fetures-place:hover img:before{
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
     color: #fff;
-}
+} */
 
-#fetures-section .fetures-place h5{
+/* #fetures-section .fetures-place h5{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 18px;
@@ -1185,12 +1190,12 @@ header:after {
     margin-bottom: 13px;
     z-index: 3;
     position: relative;
-}
+} */
 
-#fetures-section .fetures-place:hover h5{
+/* #fetures-section .fetures-place:hover h5{
 	color: #fff;
-}
-#fetures-section .fetures-place p{
+} */
+/* #fetures-section .fetures-place p{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
@@ -1226,41 +1231,28 @@ header:after {
     z-index: 3;
     position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
+} */
 
-
-#fetures-section .fetures-place a:hover{
-   background: rgb(18,42,58); /* Old browsers */
-   background: -moz-linear-gradient(top, rgba(18,42,58,1) 0%, rgba(15,40,56,1) 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(top, rgba(18,42,58,1) 0%,rgba(15,40,56,1) 100%); /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(to bottom, rgba(18,42,58,1) 0%,rgba(15,40,56,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122a3a', endColorstr='#0f2838',GradientType=0 ); /* IE6-9 */: 0.8;
-   color: #fff;
-   text-decoration: none;
-}
-
-
-#fetures-section .fetures-place{
+/* #fetures-section .fetures-place{
   display: inline-block;
   border: none;
-  position: relative;
   overflow: hidden;
-}
+} */
 #fetures-section .fetures-place span{
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     line-height: 20px;
-    color: #7b868e;
-    font-size: 13px;
-    
+    color: black;
+    opacity: 0.6;
+    font-size: 16px;
+    text-align: center;
 	z-index: 3;
-    position: relative;
 }
-#fetures-section .fetures-place:hover span{
+/* #fetures-section .fetures-place:hover span{
     color: #a4b0b9;
-}
+} */
 
-#fetures-section .fetures-place:before {
+/* #fetures-section .fetures-place:before {
   content: '';
   background: #0c283b;
   width: 900px;
@@ -1281,14 +1273,14 @@ header:after {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-weight: 200;
-}
-#fetures-section .fetures-place:hover:after {
+} */
+/* #fetures-section .fetures-place:hover:after {
   font-size: 2.2em;
 }
 #fetures-section .fetures-place:hover:before {
     -webkit-transform: translate(-290px, -400px) rotate(130deg);
     transform: translate(-290px, -400px) rotate(130deg);
-}
+} */
 
 
 /*------------------------------------------------------------------
