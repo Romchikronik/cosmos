@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ASTRHOST - Responsive Hosting Template">
+    <meta name="author" content="nedjai">
+    <link rel="icon" href="favicon.ico">
+    <!-- Tittle -->
+    <title>Преподаватели</title>
+
+	<!-- Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style_base.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/select2.min.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- BODY START -->
+<body data-spy="scroll" data-offset="80">
+
+    <!-- PREELOADER START -->
+    <div class="se-pre-con">
+        <div class="timer"><span>Wait ...</span></div>
+    </div>
+	<!-- END PREELOADER -->
+	
+	<!-- HEADER START -->
+    <header class="not-index-header">
+        <div class="animation-header"><!-- HEADRR ANIMATION -->
+            <span class="stars"></span>
+            <span class="starsbg"></span>
+            <span class="white-background-header"></span>
+        </div><!-- END HEADER ANIMATION -->
+		
+        <nav class="navbar megamenu"><!-- MENU START -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar btmone"></span>
+                    </button>
+                    <a class="navbar-brand logo-simple wow fadeIn" href="index.html">astr <span>host</span><b>.</b></a><!-- LOGO -->
+                </div>
+                <div id="js-bootstrap-offcanvas" class="navbar-offcanvas navbar-offcanvas-touch main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="contact.html">Избранное</a></li>
+                        <li><a href="tutors.html">Преподаватели</a></li>
+                        <li><a href="covorking.html">Коворкинг</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle login-btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Регистрация<span class="caret"></span></a>
+                            <div class="dropdown-menu login-areadwn">
+                                <form action="/" method="post" class="form login"><!-- LOGIN FORM -->
+
+                                    <div class="login__body">
+                                        <h5>login</h5>
+
+                                        <div class="form__field">
+                                            <input type="email" placeholder="Email" required>
+                                        </div>
+
+                                        <div class="form__field">
+                                            <input type="password" placeholder="Password" required>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="login__footer">
+                                        <input type="submit" value="Login">
+
+                                        <p><a href="#">Forgot Password ?</a></p>
+                                    </div>
+
+                                </form><!-- END LOGIN FORM -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- END NAV -->
+
+        <div class="container"><!-- START HEADLINE -->
+            <div class="row headline_inner">
+                <div class="col-md-12">
+                    <div class="col-md-8 left-align">
+                        <h5>Преподаватели <span>Найдите лучший курс и лучшего преподавателя</span></h5><!-- TITTLE -->
+                    </div>
+                    <div class="col-md-4 right-align">
+
+                        <div class="breadcrumbs_inner_link"><!-- BREADCRUMBS -->
+                            <a href="index.html" class="cms_home">Главная</a>
+                            <span class="breadcrumbs_sep"> / </span>
+                            <span>Преподаватели</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="domain-search-holder">
+                <form action="" id="domain-search" class="wow fadeIn" data-wow-delay="0.5s">
+                    <input id="domain-text" type="text" name="domain" placeholder="Найти курс..." />
+                    <select>
+                        <option value="com">com</option>
+                        <option value="net">net</option>
+                        <option value="info">info</option>
+                        <option value="org">org</option>
+                    </select>
+                    <span class="inline-button">
+                    <button id="search-btn" type="submit" name="submit" value="Search"> <img src="img/search.svg" alt="search icon" /> </button>
+                </span>
+                </form>
+            </div> -->
+        </div><!-- END HEADLINE -->
+
+    </header><!-- END HEADER -->
+
+    <section class="top-teachers">
+            <h3 class="main-title mr-top">Топ учителя</h3>
+            <ul class="main-categories">
+                <li class="main-categories__item">
+                    <a class="main-categories__link main-categories__link_active" href="">Все</a>
+                </li>
+                <li class="main-categories__item">
+                    <a class="main-categories__link" href="">Бизнес</a>
+                </li>
+                <li class="main-categories__item">
+                    <a class="main-categories__link" href="">Университет</a>
+                </li>
+                <li class="main-categories__item">
+                    <a class="main-categories__link" href="">IT Технологии</a>
+                </li>
+                <li class="main-categories__item">
+                    <a class="main-categories__link" href="">Marketing</a>
+                </li>
+            </ul>
+            <div class="container">
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+  
+    </section>
+    
+    <section class="filters_and_teachers">
+        <h3 class="main-title">Все учителя</h3>
+        <div class="container">
+            
+        <!--     <div class="filters">
+                <div class="filters__item dropdown">  
+                    <button class="dropdown__toggle" type="button">
+                        По категориям
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Все</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Бизнес</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Университет</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">IT Технологии</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Маркетинг</a></li>
+                    </ul>
+                  </div>
+                  <div class="filters__item dropdown">  
+                    <button class="dropdown__toggle" type="button">
+                        По регионам
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Все</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Ташкент</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Ташкентская область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">Ферганская область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                        <li class="dropdown__item"><a href="" class="dropdown__link">еще одна область</a></li>
+                    </ul>
+                  </div>
+                  <div class="filters__prices">
+                    <div class="filters__item filters__price dropdown">  
+                        <button class="dropdown__toggle" type="button">
+                            От:
+                            <i class="fa fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu__price">
+                            <li class="dropdown__item"><a href="" class="dropdown__link">0</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">100 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">300 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">500 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">1 000 000</a></li>
+                        </ul>
+                      </div>
+                    <div class="filters__item filters__price dropdown">  
+                        <button class="dropdown__toggle" type="button">
+                            До:
+                            <i class="fa fa-solid fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu__price">
+                            <li class="dropdown__item"><a href="" class="dropdown__link">100 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">300 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">500 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">1 000 000</a></li>
+                            <li class="dropdown__item"><a href="" class="dropdown__link">10 000 000</a></li>
+                        </ul>
+                      </div>
+                  </div>
+            </div> -->
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>     
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="videocourse-card-wrap">
+                    <div class="teacher_card">
+                        <a href="teacher-card.html" class="teacher_card__link">
+                            <div class="teacher_card__block">
+                                <img src="img/eng.png" alt="">
+                                <p class="teacher_card__course-name">UI/UX Language</p>
+                            </div>  
+                        </a>
+                        <div class="teacher_card__bg">
+                            <a href="teacher-card.html" class="teacher_card__link">
+                                <p class="teacher_card__title">Александр бебурешвили</p>  
+                                </a>  
+                                <ul class="teacher_card__likes">
+                                    <li class="react__element" data-id="" data-type="article" data-action="like"
+                                    title="Нравится">
+                                        <span class="count" data-count="like">1110</span>
+                                        <i class="fa fa-solid fa-thumbs-up"></i>
+                                    </li>
+                                    <li class="react__element" data-id="" data-type="article" data-action="dislike"
+                                        title="Не нравится">
+                                        <span class="count" data-count="dislike">10</span>
+                                        <i class="fa fa-solid fa-thumbs-up fa-rotate-180"></i> 
+                                    </li>
+                                </ul> 
+                                <div class="teacher_card__end">
+                                    <p class="teacher_card__price">$384 <span>(месяц)</span></p>
+                                    <div data-id="" data-type=""
+                                         data-action="bookmark" title="Избранное" class="favorite-link">
+                                         <i class="fa-regular fa-bookmark"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+
+            <div class="pagination">
+                <div class="container">
+                        <div class="row pagination-wrap">
+                            <ul class="pagination-nav">
+                               <!--  {% if page_obj.has_previous and page_obj.paginator.num_pages > 2 %} -->
+                                <li class="pagination-nav__item"><a class="pagination-nav__link" href="?page={{ page_obj.previous_page_number }}">
+                                    <svg width="5" height="9" viewbox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.00168896 4.50706C0.00136328 4.657 0.0594578 4.80231 0.16589 4.91777L3.73547 8.76817C3.85665 8.89922 4.03079 8.98164 4.21956 8.99728C4.40834 9.01293 4.5963 8.96052 4.7421 8.8516C4.88789 8.74267 4.97957 8.58614 4.99698 8.41645C5.01438 8.24676 4.95608 8.07781 4.83491 7.94675L1.63656 4.50706L4.72068 1.06736C4.77998 1.00172 4.82427 0.926192 4.85099 0.845117C4.87771 0.76404 4.88635 0.679017 4.87639 0.594932C4.86644 0.510846 4.8381 0.429357 4.793 0.355148C4.7479 0.280941 4.68693 0.215477 4.61359 0.162519C4.54019 0.103749 4.45407 0.0592394 4.36063 0.0317774C4.2672 0.00431633 4.16847 -0.00550461 4.07062 0.00292969C3.97276 0.011364 3.8779 0.0378714 3.79198 0.0807934C3.70605 0.123714 3.63092 0.182124 3.57127 0.252362L0.123055 4.10277C0.0334468 4.22154 -0.0092845 4.36389 0.00168896 4.50706Z"
+                                              fill="#303030"/>
+                                    </svg>
+                                </a></li>
+                                <!-- {% endif %}
+                
+                                {% for page in page_obj.paginator.page_range %}
+                
+                                {% if page == page_obj.number %} -->
+                                <li class="pagination-nav__item"><a class="pagination-nav__link pagination-nav__link_active">1<!-- {{ page }} --></a></li>
+                                <!-- {% elif page > page_obj.number|add:-3 and page < page_obj.number|add:+3 %} -->
+                                <li class="pagination-nav__item"><a class="pagination-nav__link" href="?page={{ page }}">2<!-- {{ page }} --></a></li>
+                               <!--  {% endif %}
+                
+                                {% endfor %}
+                
+                                {% if page_obj.has_next and page_obj.paginator.num_pages > 2 %} -->
+                                <li class="pagination-nav__item"><a class="pagination-nav__link" href="?page={{ page_obj.next_page_number }}">
+                                    <svg width="5" height="9" viewbox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.99831 4.50706C4.99864 4.657 4.94054 4.80231 4.83411 4.91777L1.26453 8.76817C1.14335 8.89922 0.969215 8.98164 0.780437 8.99728C0.591658 9.01293 0.403697 8.96052 0.257904 8.8516C0.11211 8.74267 0.020426 8.58614 0.00302095 8.41645C-0.0143841 8.24676 0.0439153 8.07781 0.165095 7.94675L3.36344 4.50706L0.279322 1.06736C0.22002 1.00172 0.175734 0.926192 0.149011 0.845117C0.122288 0.76404 0.113654 0.679017 0.123605 0.594932C0.133557 0.510846 0.161897 0.429357 0.206998 0.355148C0.252099 0.280941 0.313071 0.215477 0.386409 0.162519C0.459815 0.103749 0.545932 0.0592394 0.639365 0.0317774C0.732798 0.00431633 0.831533 -0.00550461 0.929385 0.00292969C1.02724 0.011364 1.1221 0.0378714 1.20802 0.0807934C1.29395 0.123714 1.36908 0.182124 1.42873 0.252362L4.87695 4.10277C4.96655 4.22154 5.00928 4.36389 4.99831 4.50706Z"
+                                              fill="#303030"/>
+                                    </svg>
+                                </a></li>
+                                <!-- {% endif %} -->
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+ <footer id="footer-area"> <!-- START FOOTER -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+					<div class="cntct-footer">
+                        <div class="col-md-5">
+                            <div class="phone-support">
+                                <h6>need help? <span>call us:</span></h6>
+                                <b>+213 123-455-678</b>
+                            </div>
+
+                            <ul class="social-links"> <!-- SOCIAL ICONS -->
+                                <li class="social-icon twitter">
+                                    <a href=""><span><i><span class="fa fa-twitter"></span></i></span><span><i><span class="fa fa-twitter"></span></i></span></a>
+                                </li>
+                                <li class="social-icon facebook">
+                                    <a href=""><span><i><span class="fa fa-facebook"></span></i></span><span><i><span class="fa fa-facebook"></span></i></span></a>
+                                </li>
+                                <li class="social-icon dribbble">
+                                    <a href=""><span><i><span class="fa fa-dribbble"></span></i></span><span><i><span class="fa fa-dribbble"></span></i></span></a>
+                                </li>
+                                <li class="social-icon behance">
+                                    <a href=""><span><i><span class="fa fa-behance"></span></i></span><span><i><span class="fa fa-behance"></span></i></span></a>
+                                </li>
+                                <li class="social-icon youtube">
+                                    <a href=""><span><i><span class="fa fa-youtube"></span></i></span><span><i><span class="fa fa-youtube"></span></i></span></a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-7">
+                            <div class="msj-send-area wow fadeIn">
+                                <span class="head-tittle">or Send us a message if you have a question</span>
+
+                                <div id="form-messages"></div>
+
+                                <form id="ajax-contact" method="post" action="mailer.php"> <!-- CONTACT FORM -->
+                                    <!-- START FORM -->
+                                    <div class="col-md-5">
+                                        <div class="field">
+                                            <input type="text" id="name" name="name" placeholder="Name *" required>
+                                            <!-- NAME INPUT -->
+                                        </div>
+
+                                        <div class="field">
+                                            <input type="email" id="email" name="email" placeholder="Email *" required>
+                                            <!-- EMAIL INPUT -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-7">
+                                        <div class="field">
+                                            <textarea id="message" name="message" placeholder="Message *" required></textarea>
+                                            <!-- TEXTAREA -->
+                                        </div>
+                                    </div>
+
+                                    <div class="btn-holder-contect">
+                                        <button type="submit">Send</button>
+                                        <!-- SEND BUTTON -->
+                                    </div>
+                                </form> <!-- END CONTACT FORM -->
+
+                            </div>
+                        </div>
+                    </div>
+					</div>
+
+                    <span class="spacing"></span>
+
+                    <div class="row footer-links"><!-- FOOTER LINK -->
+                        <div class="hosing-pakages col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                            <h4>hosting pakages</h4>
+                            <ul>
+                                <li><a href="#">web hosting</a></li>
+                                <li><a href="#">reseller hosting</a></li>
+                                <li><a href="#">VPS hosting</a></li>
+                                <li><a href="#">web hosting</a></li>
+                                <li><a href="#">reseller hosting</a></li>
+                                <li><a href="#">VPS hosting</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="services-pakages col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                            <h4>our services</h4>
+                            <ul>
+                                <li><a href="#">website builder</a></li>
+                                <li><a href="#">web design</a></li>
+                                <li><a href="#">logo design</a></li>
+                                <li><a href="#">email markting</a></li>
+                                <li><a href="#">logo design</a></li>
+                                <li><a href="#">email markting</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="company-pakages col-md-3 wow fadeIn" data-wow-delay="0.5s">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">homepage</a></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">blogs</a></li>
+                                <li><a href="#">homepage</a></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">blogs</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-cntct-info wow fadeIn" data-wow-delay="0.7s">
+                            <a class="footer-logo" href="#">astr <span>host</span><b>.</b></a>
+
+                            <div class="address">
+                                <span>no 56, algeria citty adev,</span>
+                                <span>glov no 55 awaay the street</span>
+                                <span>algeria, medea</span>
+                            </div>
+
+                            <div class="mobandmail">
+                                <span><b>phone:</b> +213 123-456-789</span>
+                                <span><b>mail:</b> support@yourdomain.com</span>
+                            </div>
+                            <a href="#"><img style="max-width: 250px;" src="img/payment/payment.png" alt="payment" /></a>
+
+                        </div>
+
+                    </div><!-- END FOOTER LINK -->
+                </div>
+            </div>
+        </div>
+    </footer><!-- END FOOTER -->
+
+    <!-- JAVASCRIPT -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f2f2c2a4b3.js" crossorigin="anonymous"></script>
+    <script src="js/text-changer.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- <script src="js/smoothscroll.js"></script> -->
+    <!-- <script src="js/counter.js"></script> -->
+    <script src="js/page.js"></script>
+    <script src="js/responsive-menu.js"></script>
+
+</body><!-- END BODY -->
+
+</html>
