@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация и Авторизация</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style_base.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    
+      <div class="login-registration">
+        <form action="" class="login-registration-form">
+            <div class="login-registration__tabs">
+                <ul class="login-registration__tabs-pills">
+                    <li class="login-registration__item login-registration__item_active">
+                        <a href="#login" class="login-registration__link">Войти</a>
+                    </li>
+                    <li class="login-registration__item">
+                        <a href="#register" class="login-registration__link">Регистрация</a>
+                    </li>
+                </ul>
+                <div class="login-registration__content">
+                    <div id="login" class="login-registration__pane login-registration__item_active">
+                        <div class="login-registration__wrap">
+                            <p class="login-registration__label"><label for="login-phone">Введите свой email или номер телефона </label></p>
+                            <input class="login-registration__field" id="login-phone" type="text" placeholder="Ваш email">
+                        </div>
+                        <div class="login-registration__wrap">
+                            <p class="login-registration__label"><label for="pass">Введите пароль</label></p>
+                            <input class="login-registration__field" id="pass" type="password" placeholder="Пароль">
+                        </div>
+                        <button class="login-registration__btn login-registration__login">Войти</button>
+                    </div>
+                    <div id="register" class="login-registration__pane">
+                        <!-- <div class="login-registration__wrap">
+                            <p class="login-registration__label"><label for="register-phone">Введите свой email или номер телефона </label></p>
+                            <input class="login-registration__field" id="register-phone" type="text">
+                        </div> -->
+                        <div class="login-registration__wrap">
+                            <p class="login-registration__label"><label for="register-pass">Введите надежный пароль для своего аккаунта </label></p>
+                            <input class="login-registration__field" id="register-pass" type="password"  placeholder="Пароль">
+                        </div>
+                        <div class="login-registration__wrap">
+                            <p class="login-registration__label"><label for="register-pass-rep">Подтвердите пароль</label></p>
+                            <input class="login-registration__field" id="register-pass-rep" type="password"  placeholder="Подтвердите пароль">
+                        </div>
+                        <button class="login-registration__btn login-registration__register">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+     </div>
+    
+     <script src="js/jquery.min.js"></script>
+     <script src="js/tabs.js"></script>
+    
+</body>
+</html>

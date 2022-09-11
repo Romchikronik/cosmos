@@ -16,7 +16,7 @@ $(document).ready(function () {
     });
   });
 
-  $(".preview__buy-course").click(function (e) {
+  $(".preview__buy-course, .modal_btn").click(function (e) {
     e.preventDefault();
     $(".overlay").show().css("overflow", "auto");
     $("html").css("overflow-y", "hidden");

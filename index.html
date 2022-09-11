@@ -62,37 +62,12 @@
                 </div>
                 <div id="js-bootstrap-offcanvas" class="navbar-offcanvas navbar-offcanvas-touch main-nav">
                     <ul class="nav navbar-nav navbar-right">
+                        <li class="nav_register_mobile_li"><a href="login_register.html" class="nav_register_ligin__mobile">Регистрация</a></li>
                         <li><a href="index.html">Главная</a></li>
                         <li><a href="save_page.html">Избранное</a></li>
                         <li><a href="tutors.html">Преподаватели</a></li>
                         <li><a href="covorking.html">Коворкинг</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle login-btn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Регистрация<span class="caret"></span></a>
-                            <div class="dropdown-menu login-areadwn">
-                                <form action="/" method="post" class="form login"><!-- LOGIN FORM -->
-
-                                    <div class="login__body">
-                                        <h5>login</h5>
-
-                                        <div class="form__field">
-                                            <input type="email" placeholder="Email" required>
-                                        </div>
-
-                                        <div class="form__field">
-                                            <input type="password" placeholder="Password" required>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="login__footer">
-                                        <input type="submit" value="Login">
-
-                                        <p><a href="#">Forgot Password ?</a></p>
-                                    </div>
-
-                                </form><!-- END LOGIN FORM -->
-                            </div>
-                        </li>
+                        <li class="nav_register_li"><a href="login_register.html" class="nav_register_ligin">Регистрация</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,12 +83,12 @@
                         <div class="domain-search-holder">
                             <form action="" id="domain-search" class="wow fadeIn" data-wow-delay="0.5s">
                                 <input id="domain-text" type="text" name="domain" placeholder="Найти курс..." />
-                                <select>
+                                <!-- <select>
                                     <option value="com">com</option>
                                     <option value="net">net</option>
                                     <option value="info">info</option>
                                     <option value="org">org</option>
-                                </select>
+                                </select> -->
                                 <span class="inline-button">
                                 <button id="search-btn" type="submit" name="submit" value="Search"> <img src="img/search.svg" alt="search icon" /> </button>
                             </span>
@@ -126,39 +101,16 @@
         </div><!-- DOMAIN SECTION END -->
     </header>
 
-    <section id="fetures-section"> <!-- FETURES SECTION START -->
+    <section class="hello-section"> <!-- FETURES SECTION START -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="col-md-3">
-                        <div class="fetures-place wow fadeIn">
-                            <!-- <span class="boldtrin"><b>free</b></span> -->
-                            <img src="img/firstcard.png" alt="">
-                            <span>Передовой подход к образовательному процессу </span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="fetures-place wow fadeIn" data-wow-delay="0.3s">
-                            <img src="img/secondcard.png" alt="">
-                            <span>Непрерывное усовершенствование и пополнение базы курсов </span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="fetures-place wow fadeIn" data-wow-delay="0.6s">
-                            <img src="img/thirdcard.png" alt="">
-                            <span>Только практикующие преподаватели и наставники</span>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="fetures-place wow fadeIn" data-wow-delay="0.9s">
-                            <img src="img/fourcard.png" alt="">
-                            <span>Помощь всем, кто хочет учиться и всем, кто готов обучать</span>
-                        </div>
-                    </div>
-
+            <div class="hello-section-wrap">
+                <div class="hello-section-wrap__left">
+                    <img src="img/stay_repetitor.png" alt="">
+                    <a class="hello-section-wrap__link modal_btn" href="">Стать репетитором</a>
+                </div>
+                <div class="hello-section-wrap__right">
+                    <img src="img/find_repetitor.png" alt="">
+                    <a class="hello-section-wrap__link hello-section-wrap__link_right" href="tutors.html">Найти репетитора</a>
                 </div>
             </div>
         </div>
@@ -177,8 +129,8 @@
                         <p class="content__subtitle">Мы первая и самая надежная платформа по поиску учителей</p>
                         <p class="content__text">У нас вы найдете все то, что вам нужно! Здесь вы можете найти подходящий для вас курс и качественного преподавателя! Также у нас вы можете купить видеокурс по очень низкой цене</p>
                         <div class="content__buttons">
-                            <a href="" class="content__btn">Курсы</a>
-                            <a href="" class="content__btn">Видеокурсы</a>
+                            <a href="tutors.html" class="content__btn">Курсы</a>
+                            <a href="covorking.html" class="content__btn">Видеокурсы</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +155,7 @@
                         </div>
                         <p class="content__subtitle">Действующих учителей мы всегда будем рады видить в нашей команде</p>
                         <p class="content__text">Вам не придется заморачиваться с регистрацией, опытные мэнеджера сделают это за вас! Также вы можете открыть новый курс у нас на платформе, по направлению, которое вы желаете</p>
-                        <a href="" class="content__btn">Стать преподавателем</a>
+                        <a href="" class="content__btn modal_btn">Стать преподавателем</a>
                     </div>
                 </div>
             </div>
@@ -277,92 +229,6 @@
     </section>  -->
     <!-- FACT END -->
     
-    <!-- START BLOG SECTION -->
-    <!-- <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="blog-titte"> 
-                        <h5>Latest From The Blog <span>Lorem Ipsum Dolor Sit Amet</span></h5>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="post-show wow fadeInLeft" data-wow-delay="0.1s">
-                            <span class="cmsmasters-post-date">
-	<span class="cmsmasters-day">29</span>
-                            <span class="cmsmasters-mon">Jul</span>
-                            </span>
-                            <figure class="cmsmasters_img_rollover_wrap preloader">
-                                <div class="info-post">
-                                    <img src="img/blog/1.jpg" class="post-image" alt="blog image">
-                                    <span>
-	<a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> nedjai moh</a>
-	<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 22</a>
-	</span>
-                                </div>
-                                <div class="post-sub">
-                                    <h2><a href="blog-post.html" title="" class="post-link">Does your website need an SSL certificate?</a></h2></div>
-                            </figure>
-                            <div class="post-cont-wrap">
-                                in <a href="#" rel="category tag">Hosting</a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="post-show  wow fadeIn" data-wow-delay="0.3s"> 
-                            <span class="cmsmasters-post-date">
-	<span class="cmsmasters-day">31</span>
-                            <span class="cmsmasters-mon">Jul</span>
-                            </span>
-                            <figure class="cmsmasters_img_rollover_wrap preloader">
-                                <div class="info-post">
-                                    <img src="img/blog/2.jpg" class="post-image" alt="blog image">
-                                    <span>
-	<a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> nedjai moh</a>
-	<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 14</a>
-	</span>
-                                </div>
-                                <div class="post-sub">
-                                    <h2><a href="blog-post.html" title="" class="post-link">Does your website need an SSL certificate?</a></h2></div>
-                            </figure>
-                            <div class="post-cont-wrap">
-                                in <a href="#" rel="category tag">Hosting</a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-md-4">
-                        <article class="post-show  wow fadeInRight" data-wow-delay="0.5s">
-                            <span class="cmsmasters-post-date">
-	<span class="cmsmasters-day">07</span>
-                            <span class="cmsmasters-mon">may</span>
-                            </span>
-                            <figure class="cmsmasters_img_rollover_wrap preloader">
-                                <div class="info-post">
-                                    <img src="img/blog/3.jpg" class="post-image" alt="blog image">
-                                    <span>
-	<a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> nedjai moh</a>
-	<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i>3</a>
-	</span>
-                                </div>
-                                <div class="post-sub">
-                                    <h2><a href="blog-post.html" title="" class="post-link">Does your website need an SSL certificate?</a></h2></div>
-                            </figure>
-                            <div class="post-cont-wrap">
-                                in <a href="#" rel="category tag">Hosting</a>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="view-more-post wow fadeInBottom" data-wow-delay="0.1s">
-                        <a data-toggle="tooltip" data-placement="top" title="view more" href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  -->
-    <!-- END BLOG SERCTION -->
 
     <footer>
         <div class="container">
@@ -393,6 +259,20 @@
           <p>Сообщество © 2022. Все права защищены</p>
         </div>
       </div>
+      
+      <div class="overlay"></div>
+      <div class="modal-manager">
+          <img src="img/manager_gif.png" alt="" class="modal-manager__img">
+          <small class="modal-manager__text">Оператор: Имя и Фамилия</small>
+          <h4 class="modal-manager__text">Связаться с менеджером для покупки курса</h4>
+          <ul class="socials">
+              <li class="socials__item"><a href=""><i class="fa fa-brands fa-telegram"></i></a></li>
+              <li class="socials__item"><a href=""><i class="fa fa-brands fa-facebook"></i></a></li>
+              <li class="socials__item"><a href=""><i class="fa fa-brands fa-instagram"></i></a></li>
+          </ul>
+          <a class="modal-manager__number" href="">+998 90 112 12 21</a>
+         <button class="modal-manager__exit"><img src="img/cross.png" alt=""></button>
+      </div>
 
     <!-- JAVASCRIPT -->
     <script src="js/wow.min.js"></script>
@@ -405,6 +285,7 @@
     <script src="js/counter.js"></script>
     <script src="js/page.js"></script>
     <script src="js/responsive-menu.js"></script>
+    <script src="js/modal.js"></script>
 
 </body><!-- END BODY -->
 

@@ -518,7 +518,7 @@ header:after {
     left: 0;
     right: 0;
 	z-index: 1;
-	-webkit-animation-name: spin;
+	/* -webkit-animation-name: spin;
     -webkit-animation-duration: 75s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -529,11 +529,14 @@ header:after {
     -ms-animation-name: spin;
     -ms-animation-duration: 75s;
     -ms-animation-iteration-count: infinite;
-    -ms-animation-timing-function: linear;
-    animation-name: spin;
+    -ms-animation-timing-function: linear; */
+    -webkit-animation: spin 75s linear infinite !important;
+    -ms-animation: spin 75s linear infinite !important;
+    animation: spin 75s linear infinite !important;
+    /* animation-name: spin;
     animation-duration: 75s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
 }
 
 .earth-clouds{
@@ -2180,8 +2183,8 @@ header:after {
     padding: 13px;
     color: #fff;
     padding-bottom: 11px;
-    background: -moz-linear-gradient(top, rgba135, 224, 253, 0) 0%, rgba(0, 0, 0, 0.59) 100%);
-    background: -webkit-linear-gradient(top, rgba135, 224, 253, 0) 0%,rgba(0, 0, 0, 0.59) 100%);
+    background: -moz-linear-gradient(top, rgba135, 224, 253, 0) 0%, rgba(0, 0, 0, 0.59) 100%;
+    background: -webkit-linear-gradient(top, rgba135, 224, 253, 0) 0%,rgba(0, 0, 0, 0.59) 100%;
     background: linear-gradient(to bottom, rgba(135, 224, 253, 0) 0%,rgba(0, 0, 0, 0.59) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#000000',GradientType=0 );
 	-webkit-transition: all 0.2s ease-in-out;
@@ -2235,238 +2238,6 @@ header:after {
     background: rgb(227, 227, 232);
 }
 
-
-/*------------------------------------------------------------------
-	15. footer Styles
--------------------------------------------------------------------*/
-
-
-
-#footer-area{
-    background: #2a363f;
-    padding: 20px 0 45px 0;
-    position: relative;
-}
-
-#footer-area .phone-support{
-    padding: 16px 33px;
-    border-radius: 6px 0 0 6px;
-    margin-right: 40px;
-    margin-top: -30px;
-}
-
-#footer-area .phone-support:after{
-
-}
-
-#footer-area .phone-support h6{
-    font-size: 26px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-
-#footer-area .phone-support h6>span{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 15px;
-}
-
-#footer-area .phone-support b{
-    color: #86c724;
-    font-size: 32px;
-    text-transform: uppercase;
-}
-
-#footer-area .msj-send-area{
-    margin-left: 50px;
-}
-
-#footer-area .msj-send-area .head-tittle{
-    color: #e5e8ea;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    
-}
-
-#footer-area .msj-send-area #ajax-contact{
-    margin-top: 20px;
-}
-
-#footer-area .msj-send-area #ajax-contact .col-md-5{
-    padding-left: 0;
-}
-
-#footer-area .msj-send-area #ajax-contact input[type="text"]{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-
-    border: 0;
-    padding: 11px;
-    font-size: 13px;
-    margin-bottom: 6px;
-    border-radius: 3px;
-}
-
-#footer-area .msj-send-area #ajax-contact input[type="email"]{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-
-    border: 0;
-    padding: 11px;
-    font-size: 13px;
-    margin-bottom: 6px;
-    border-radius: 3px;
-}
-
-
-#footer-area .msj-send-area #ajax-contact .col-md-7{
-    padding-left: 0;
-}
-
-#footer-area .msj-send-area #ajax-contact .col-md-7 textarea{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-
-    border: 0;
-    padding: 11px;
-    font-size: 13px;
-    margin-bottom: 6px;
-    border-radius: 3px;
-    min-height: 86px;
-}
-
-#footer-area .msj-send-area #ajax-contact button{
-    background: #c092dc;
-    display: block;
-    color: #fff;
-    border: 0;
-    padding: 10px 60px;
-    float: right;
-    margin-right: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-    border-radius: 50px;
-}
-
-#footer-area .msj-send-area #ajax-contact button:hover{
-    background: #9e72b9;
-}
-
-
-#footer-area .msj-send-area .success {
-    padding: 1em;
-    color: #ffffff;
-    background-color: #8BC34A;
-    border: 1px solid rgb(124, 175, 65);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    margin-bottom: 0;
-    margin-right: 15px;
-    margin-top: 14px;
-}
-
-#footer-area .msj-send-area .error {
-    padding: 1em;
-    color: #ffffff;
-    background-color: #F44336;
-    border: 1px solid rgba(185, 74, 72, 0.3);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    margin-bottom: 0;
-    margin-right: 15px;
-    margin-top: 14px;
-}
-
-#footer-area .spacing{
-    display: block;
-    width: 100%;
-    float: left;
-    height: 1px;
-    background: rgba(127, 143, 154, 0.08);
-    margin-top: 30px;
-}
-
-
-
-#footer-area .footer-links h4{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin-top: 27px;
-}
-
-#footer-area .footer-links ul{
-    padding-left: 0;
-    margin-top: 20px;
-}
-
-#footer-area .footer-links ul>li>a{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: #8b969e;
-    
-    display: block;
-    margin: 5px 0;
-    text-decoration: none;
-    text-shadow: 1px 2px 3px rgba(27, 36, 43, 0.48);
-}
-
-
-#footer-area .footer-links ul>li>a:hover{
-    color: #fff;
-    text-decoration: none;
-}
-
-#footer-area .footer-cntct-info{
-    padding: 20px 0;
-    text-align: right;
-}
-
-
-#footer-area .footer-cntct-info .footer-logo{
-    font-size: 35px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
-
-
-#footer-area .footer-cntct-info .footer-logo span{
-    font-weight: 100;
-}
-
-
-#footer-area .address{
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    color: #8b969e;
-    margin: 12px 0;
-}
-
-#footer-area .address span{
-    display: block;
-}
-
-#footer-area .mobandmail{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #a7b0b7;
-    margin: 19px 0;
-}
-
-#footer-area .mobandmail span{
-    display: block;
-}
-#footer-area .mobandmail span>b{
-    color: #d2d8dc;
-}
 
 
 /*------------------------------------------------------------------
@@ -2533,7 +2304,6 @@ ul.social-links .social-icon a span:nth-child(2) {
   width: 40%;
   position: relative;
   margin: 0 0em 0 1em;
-  text-align: left;
   z-index: 2;
 }
 ul.social-links .social-icon a span:nth-child(2) i {
@@ -3533,10 +3303,6 @@ ul.social-links .social-icon.pinterest span:nth-child(2) i {
     color: #F44336;
 }
 
-
-.domain-search-error .titte-error-domain h5>span{
-
-}
 
 .domain-search-error .titte-error-domain p{
     display: block;
