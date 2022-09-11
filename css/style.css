@@ -21,6 +21,11 @@ a:hover {
   text-decoration: none;
 }
 
+.not-index-header {
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+
 .main-title {
   margin-top: 0;
   font-weight: 700;
@@ -61,7 +66,16 @@ a:hover {
 
 .main-categories__item:hover a {
   color: #fff;
-  background: #0FBFF0;
+  background: -o-linear-gradient(315deg, #3c8ce7 0, #00eaff 100%);
+  background: linear-gradient(135deg, #3c8ce7 0, #00eaff 100%);
+}
+
+.main-categories__item:hover {
+  border-color: transparent !important;
+}
+
+.main-categories__item_active {
+  border-color: transparent !important;
 }
 
 .main-categories__link {
@@ -69,11 +83,15 @@ a:hover {
   padding: 12px 30px;
   color: #AAAAAA;
   font-size: 16px;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .main-categories__link_active {
   color: #fff;
-  background: #0FBFF0;
+  background: -o-linear-gradient(315deg, #3c8ce7 0, #00eaff 100%);
+  background: linear-gradient(135deg, #3c8ce7 0, #00eaff 100%);
 }
 
 .top-teachers,
@@ -136,7 +154,8 @@ a:hover {
   padding: 6px 24px;
   width: 80%;
   position: absolute;
-  background: #4586D6;
+  background: -o-linear-gradient(315deg, #00eaff 0, #3c8ce7 100%);
+  background: linear-gradient(135deg, #00eaff 0, #3c8ce7 100%);
   border-radius: 8px;
   font-size: 13px;
   color: #fff;
@@ -171,7 +190,7 @@ a:hover {
 
 .teacher_card__likes li {
   cursor: pointer !important;
-  z-index: 250;
+  z-index: 1;
   color: #808080;
 }
 
@@ -503,7 +522,7 @@ a:hover {
   content: '🌕';
   position: absolute;
   display: block;
-  z-index: 4;
+  z-index: 1;
   top: calc(50% - 5px);
   left: calc(50% - 113px);
   -webkit-transform-origin: 113px 5px;
@@ -527,7 +546,7 @@ a:hover {
   height: 80%;
   border-radius: 50%;
   overflow: hidden;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .teacher-card-detail__title {
@@ -1256,6 +1275,30 @@ a:hover {
   border: none;
 }
 
+.arrow-back {
+  display: none;
+  color: #fff !important;
+  background: -o-linear-gradient(315deg, #00EAFF 0%, #3C8CE7 100%, #0679FC 100%);
+  background: linear-gradient(135deg, #00EAFF 0%, #3C8CE7 100%, #0679FC 100%);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.arrow-back .fa {
+  font-size: 16px;
+}
+
 .mobile_card {
   padding-top: 15px;
   display: none;
@@ -1433,6 +1476,7 @@ a:hover {
   .teacher_card__bg {
     padding: 0;
     background: #fff;
+    border-radius: 0;
   }
 
   .teacher_card__title {
@@ -1495,9 +1539,7 @@ a:hover {
   }
 
   .teacher-card-links__phone {
-    -webkit-animation: none;
-    animation: none;
-    bottom: -350px;
+    bottom: -260px;
   }
 
   .teacher-card-links__phone img {
@@ -1560,6 +1602,13 @@ a:hover {
     position: absolute;
     right: 0;
     top: -20px;
+  }
+
+  .arrow-back {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    top: 5%;
   }
 
   .mobile_card {
@@ -1643,7 +1692,7 @@ a:hover {
   }
 
   .teacher-card-links__phone {
-    bottom: -365px;
+    bottom: -285px;
   }
 
   .card-detail__title {
@@ -1728,6 +1777,11 @@ a:hover {
     right: 25px;
   }
 
+  .arrow-back {
+    top: 0;
+    left: 30px;
+  }
+
   .mobile_card__title {
     font-size: 24px;
     line-height: 26px;
@@ -1761,6 +1815,7 @@ a:hover {
 
   .teacher_card {
     padding: 4px;
+    border-radius: 6px;
   }
 
   .teacher_card__block {
@@ -1870,12 +1925,12 @@ a:hover {
   }
 
   .teacher-card-links__phone {
-    bottom: -280px;
+    bottom: -225px;
   }
 
   .teacher-card-links__phone img {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 
   .card-detail__title {
@@ -2050,30 +2105,35 @@ a:hover {
     right: 0;
   }
 
+  .arrow-back {
+    top: -10px;
+    left: 15px;
+  }
+
   .mobile_card .mobile_fa {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   .mobile_card__title {
-    font-size: 17px !important;
-    line-height: 19px !important;
+    font-size: 20px !important;
+    line-height: 21px !important;
     margin-bottom: 15px !important;
   }
 
   .mobile_card .teacher-card-detail__likes {
     margin-bottom: 10px !important;
-    width: 120px !important;
+    width: 124px !important;
   }
 
   .mobile_card .teacher-card-detail__name {
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
   .mobile_card .teacher-card-detail__price-of,
   .mobile_card .teacher-card-detail__price-on {
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 16px;
     margin-bottom: 5px;
   }
 }
