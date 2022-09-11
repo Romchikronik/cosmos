@@ -21,9 +21,9 @@ a:hover {
   text-decoration: none;
 }
 
-.not-index-header {
-  border-bottom-left-radius: 30px !important;
-  border-bottom-right-radius: 30px !important;
+.head-light-title {
+  font-size: 30px !important;
+  line-height: 60px !important;
 }
 
 .main-title {
@@ -1329,6 +1329,104 @@ a:hover {
   color: #1C3554;
 }
 
+footer {
+  padding: 90px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#082031), to(#0e2c40));
+  background: -o-linear-gradient(top, #082031 0%, #0e2c40 100%);
+  background: linear-gradient(to bottom, #082031 0%, #0e2c40 100%);
+}
+
+footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+footer .row:before {
+  content: none !important;
+}
+
+footer .row:after {
+  content: none !important;
+}
+
+.footer-title {
+  margin-top: 0 !important;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+.footer-title span {
+  font-weight: 500;
+}
+
+.footer-text {
+  color: #cdd0d2;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  width: 215px;
+  margin-top: 24px;
+}
+
+.footer-title2 {
+  margin-top: 0 !important;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.social-link .fa {
+  margin-right: 8px;
+}
+
+.social-link a {
+  color: #2cc7c1;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.social-link {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.copyright {
+  background: -webkit-gradient(linear, left top, left bottom, from(#082031), to(#0e2c40));
+  background: -o-linear-gradient(top, #082031 0%, #0e2c40 100%);
+  background: linear-gradient(to bottom, #082031 0%, #0e2c40 100%);
+  padding: 13px 0;
+}
+
+.copyright p {
+  color: #cacaca;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
 @media (max-width: 1199.98px) {
   .teacher_card__title {
     font-size: 14px;
@@ -1453,6 +1551,11 @@ a:hover {
 }
 
 @media (max-width: 991.98px) {
+  .teacher-card-detail-header {
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+  }
+
   .main-title {
     margin-bottom: 35px;
     font-size: 35px;
@@ -1613,6 +1716,11 @@ a:hover {
 
   .mobile_card {
     display: block;
+  }
+
+  footer .row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -1786,6 +1894,26 @@ a:hover {
     font-size: 24px;
     line-height: 26px;
   }
+
+  footer .col {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 50px 0 30px;
+  }
+
+  .footer-title {
+    margin-bottom: 15px;
+  }
+
+  .footer-text {
+    max-width: 500px;
+  }
+
+  .footer-title2 {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -1795,6 +1923,12 @@ a:hover {
 
   .headline_inner {
     padding: 10px 0 !important;
+  }
+
+  .main-title {
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 28px;
   }
 
   .main-categories {
@@ -2018,7 +2152,7 @@ a:hover {
 
   .modal-videocourse {
     width: 280px !important;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
     border-radius: 5px;
     background: #fff;
   }
@@ -2135,5 +2269,34 @@ a:hover {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 5px;
+  }
+
+  footer {
+    padding: 30px 0 10px;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .footer-title2 {
+    font-size: 16px;
+  }
+
+  .social-link a {
+    font-size: 13px;
+  }
+
+  .social-link {
+    height: 80px;
+  }
+
+  .copyright p {
+    font-size: 11px;
   }
 }
